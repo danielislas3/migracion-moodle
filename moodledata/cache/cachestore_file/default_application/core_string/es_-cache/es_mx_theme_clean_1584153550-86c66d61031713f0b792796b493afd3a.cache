@@ -1,0 +1,23 @@
+a:19:{s:12:"choosereadme";s:889:"<div class="clearfix">
+<div class="well">
+<h2>Clean (Limpio)</h2>
+<p><img class="img-polaroid "src="clean/pix/screenshot.jpg" /></p>
+</div>
+<div class="well">
+<h3>Acerca de</h3>
+<p>Clean (Limpio) es un temaMoodle  bootstrap modificado que hereda estilos y los renderiza de su tema paterno .</p>
+<h3>Padres</h3>
+<p>Este tema está basado en el tema Bootstrap que fue creado para Moodle 3.5 con la ayuda de:<br>
+Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>
+<h3>Créditos del Tema</h3>
+<p>Auhores: Bas Brands, David Scotson, Mary Evans<br>
+Contacto: bas@sonsbeekmedia.nl<br>
+Sitio web: <a href="http://www.basbrands.nl">www.basbrands.nl</a>
+</p>
+<h3>Reportar problemasg:</h3>
+<p><a href="http://tracker.moodle.org">http://tracker.moodle.org</a></p>
+<h3>Más información</h3>
+<p><a href="clean/README.txt">Como copiar y personalizar este tema.</a></p>
+</div></div>
+/div></div>";s:11:"configtitle";s:14:"Clean (Limpio)";s:9:"customcss";s:17:"CSS personalizado";s:13:"customcssdesc";s:137:"Las reglas CSS que añada en esta área-de-texto se reflejarán en todas las páginas, haciendo más fácil la personalización del tema.";s:8:"footnote";s:11:"Nota al pie";s:12:"footnotedesc";s:95:"Lo que añada a esta área-de-texto se mostrará en el pié de página en todo su sitio Moodle.";s:6:"invert";s:26:"Invertir barra_navegación";s:10:"invertdesc";s:121:"Intercambiar (entre blanco y negro) el texto y el fondo, para la barra de navegación en la parte superior de la página.";s:4:"logo";s:4:"Logo";s:8:"logodesc";s:387:"El logo solamente es mostrado en el encabezado de la portada y de la página para ingresar al sitio.<br />
+Si la altura de su logo fuera mayor de 75 pixeles, añada div.logo {height: 100px;} a la caja de texto de CSS personalizado inferior, arreglándola adecuadamente si la altura fuera diferente de 100 pixeles. Si no se añade un logo aquí, se usará el logo de 'Apariencia > Logos'.";s:10:"pluginname";s:14:"Clean (Limpio)";s:16:"privacy:metadata";s:83:"El tema Clean (Limpio) no almacena ningún dato personal acerca de ningún usuario.";s:16:"region-side-post";s:7:"Derecha";s:15:"region-side-pre";s:9:"Izquierda";s:8:"sitelogo";s:14:"Logo del sitio";s:8:"sitename";s:54:"Mostrar el nombre del sitio junto con un pequeño logo";s:12:"sitenamedesc";s:181:"Si no hay un logo pequeño, el nombre del sitio siempre se muestra en la Barra de Navegación. Si se configura un logo pequeño, puede mostrarse junto con o sin el nombre del sitio.";s:9:"smalllogo";s:13:"Logo pequeño";s:13:"smalllogodesc";s:271:"El logo pequeño es mostrado en la Barra-de-Navegación. Si hay un logo del encabezado para las páginas de Portada y de ingreso al sitio, el logo pequeño no se muestra en estas páginas. Si no se añade un logo aquí, se usará el logo compacto de 'Apariencia > Logos'.";}

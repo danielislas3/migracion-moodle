@@ -1,0 +1,18 @@
+a:24:{s:10:"pluginname";s:29:"Prueba de correo electrónico";s:16:"privacy:metadata";s:70:"The eMail Test plugin does not store any personal data about any user.";s:15:"pluginname_help";s:214:"La prueba de correo electrónico verificará los ajustes de correo electrónico de este sitio Moodle enviando un correo electrónico de prueba a la dirección que especifiques. Sólo para administradores del sitio.";s:6:"credit";s:80:"Michael Milette - <a href="http://www.tngconsulting.ca/">TNG Consulting Inc.</a>";s:4:"from";s:78:"{$a->type}: <strong>{$a->email}</strong> (<a href="{$a->url}">{$a->label}</a>)";s:7:"heading";s:48:"Configuración del correo electrónico de prueba";s:19:"recipientisrequired";s:68:"Debes indicar la dirección de correo electrónico del destinatario.";s:9:"errorsend";s:202:"El correo electrónico de prueba no pudo ser entregado al servidor de correo. Revisa tus <a href="../../admin/settings.php?section=messagesettingemail" target="blank">ajustes de correo electrónico</a>.";s:19:"errorcommunications";s:442:"Moodle could not communicate with your mail server.</p><p><strong>Recommendation:</strong></p><p>Start by checking your Moodle <a href="{$a}" target="_blank">SMTP mail settings</a>.</p><p>If they look correct, check your SMTP Server and/or firewall settings to ensure that they are configured to accept SMTP connections from your Moodle web server and from your no-reply email address. For more help, see the FAQ section in the documentation.";s:9:"fromemail";s:39:"De la dirección de correo electrónico";s:7:"toemail";s:38:"A la dirección de correo electrónico";s:9:"youremail";s:36:"Tu dirección de correo electrónico";s:17:"primaryadminemail";s:47:"Correo electrónico del administrador principal";s:13:"alwaysshowlog";s:80:"Always show log of communications with mail server, even if there are no errors.";s:8:"sendtest";s:27:"Enviar un mensaje de prueba";s:10:"sendmethod";s:40:"Método de envío de correo electrónico";s:8:"sentmail";s:78:"Moodle entregó correctamente el mensaje de prueba al servidor de correo SMTP.";s:11:"sentmailphp";s:71:"El mensaje de prueba de Moodle fue aceptado correctamente por PHP Mail.";s:10:"registered";s:26:"Usuario registrado ({$a}).";s:13:"notregistered";s:29:"No registrado o no conectado.";s:9:"phpmethod";s:23:"Método por defecto PHP";s:14:"nologavailable";s:361:"<p>Logging is not available when using PHP mail() function. However, may find logs on your server. Most common locations on Linux include:</p>
+<ul>
+<li>/var/log/maillog</li>
+<li>/var/log/mail.log</li>
+<li>/var/adm/maillog</li>
+<li>/var/adm/syslog/mail.log</li>
+</ul>
+<p>Alernatively, a custom location may be specified using the mail.log setting in php.ini.</p>";s:10:"smtpmethod";s:16:"Hosts SMTP: {$a}";s:7:"message";s:648:"<p>Esto es un mensaje de prueba. Por favor, ignóralo.</p>
+<p>Si has recibido este correo significa que has configurado correctamente los ajustes de correo electrónico de tu sitio Moodle.</p>
+<hr><p><strong>Información de usuario adicional</strong></p>
+<ul>
+<li><strong>Estado de registro :</strong> {$a->regstatus}</li>
+<li><strong>Lenguaje de preferencia  :</strong> {$a->lang}</li>
+<li><strong>Navegador web del usuario :</strong> {$a->browser}</li>
+<li><strong>Mensaje enviado desde :</strong> {$a->referer}</li>
+<li><strong>Versión de Moodle :</strong> {$a->release}</li>
+<li><strong>Dirección IP del usuario :</strong> {$a->ip}</li>
+</ul>";}

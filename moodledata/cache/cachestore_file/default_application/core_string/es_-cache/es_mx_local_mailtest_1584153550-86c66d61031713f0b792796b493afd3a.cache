@@ -1,0 +1,18 @@
+a:24:{s:10:"pluginname";s:29:"eMail Test (Prueba de Correo)";s:16:"privacy:metadata";s:83:"El plugin Probar Email no almacena ningún dato personal acerca de ningún usuario.";s:15:"pluginname_help";s:191:"Mail Test (Prueba de Correo) revisará la configuración del Email del sitio Moodle al enviarle un mensaje Email a una dirección Email especificada. Solamente para administradores del sitio.";s:6:"credit";s:80:"Michael Milette - <a href="http://www.instruxmedia.com/">TNG Consulting Inc.</a>";s:4:"from";s:78:"{$a->type}: <strong>{$a->email}</strong> (<a href="{$a->url}">{$a->label}</a>)";s:7:"heading";s:37:"Prueba de la configuración del Email";s:19:"recipientisrequired";s:60:"Usted debe especificar la dirección Email del destinatario.";s:9:"errorsend";s:253:"El mensaje del Email de prueba no pudo entregarse al servidor SMTP. </p><p><strong>Recomendación:</strong></p><p>Revise sus <a href="{$a}" target="blank">Configuraciones del correo</a>. Para mayor información, vea la sección FAQ en la documentación.";s:19:"errorcommunications";s:504:"Moodle no pudo comunicarse con su servidor de correo.</p><p><strong>Recomendación:</strong></p><p>Empiece por revisar sus<a href="{$a}" target="_blank">Configuraciones de correo SMTP</a>.</p><p>Si se ven correctas, revise su servidor SMTP o las configuraciones de su cortafuegos (firewall) para asegurarse de que estén configurados para aceptar conexiones SMTP de su servidor web de  Moodle y de su dirección Email de no-contestar (no-reply). Para más ayuda, vea la sección FAQ en la documentación.";s:9:"fromemail";s:22:"Desde dirección Email";s:7:"toemail";s:21:"Para dirección Email";s:9:"youremail";s:28:"Su dirección Email de Usted";s:17:"primaryadminemail";s:32:"Email del administrador primario";s:13:"alwaysshowlog";s:93:"Mostrar siempre bitácora de comunicaciones con el servidor de Email, aunque no haya errores.";s:8:"sendtest";s:27:"Enviar un mensaje de prueba";s:10:"sendmethod";s:25:"Método para enviar Email";s:8:"sentmail";s:77:"Moodle entregó exitosamente el mensaje de prueba al servidor de correo SMTP.";s:11:"sentmailphp";s:70:"El mensaje de prueba de Moodle fue exitosamente aceptado por PHP Mail.";s:10:"registered";s:26:"Usuario registrado ({$a}).";s:13:"notregistered";s:38:"No registrado o no ingresado al sitio.";s:9:"phpmethod";s:23:"Método PHP por defecto";s:14:"nologavailable";s:430:"<p>El escribir a bitácoras no está disponible al usar la función PHP mail() . Sin embargo, Usted puede encontrar bitácoras en su servidor. Los sitios más comunes en Linux incluyem:</p>
+<ul>
+<li>/var/log/maillog</li>
+<li>/var/log/mail.log</li>
+<li>/var/adm/maillog</li>
+<li>/var/adm/syslog/mail.log</li>
+</ul>
+<p>De forma alterna, puede especificarse una localización alterna usando la configuración mail.log en php.ini.</p>";s:10:"smtpmethod";s:16:"Hosts SMTP: {$a}";s:7:"message";s:644:"<p>Este es un mensaje de prueba. Por favor no le haga caso.</p>
+<p>Si Usted recibió este Email, significa que Usted ha configurado exitosamente las configuraciones de Email de su sitio Moodle.</p>
+<hr><p><strong>Información adicional del usuario</strong></p>
+<ul>
+<li><strong>Estatus del registro :</strong> {$a->regstatus}</li>
+<li><strong>Idioma preferido :</strong> {$a->lang}</li>
+<li><strong>Navegador web del usuario :</strong> {$a->browser}</li>
+<li><strong>Mensaje enviado desde :</strong> {$a->referer}</li>
+<li><strong>Versión Moodle:</strong> {$a->release}</li>
+<li><strong>Dirección IP del usuario :</strong> {$a->ip}</li>
+</ul>";}

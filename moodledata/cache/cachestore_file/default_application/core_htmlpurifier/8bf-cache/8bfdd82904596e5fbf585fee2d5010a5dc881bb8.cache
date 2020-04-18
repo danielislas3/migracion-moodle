@@ -1,0 +1,1 @@
+s:363:"<strong>Stack trace:</strong> <ul style="text-align:left;"><li>line 494 of /lib/setuplib.php: moodle_exception thrown</li><li>line 150 of /login/lib.php: call to print_error()</li><li>line 52 of /login/lib.php: call to core_login_process_password_reset()</li><li>line 78 of /login/forgot_password.php: call to core_login_process_password_reset_request()</li></ul>";
